@@ -1,4 +1,4 @@
-# mono-repo-react-native
+# common-react-logic
 ReactNative and ReactNativeWeb MonoRepo
 ## code sharing between Web, iOS and Android
 \
@@ -14,7 +14,7 @@ Please follow below mentioned step to run this project:
 
 - Clone the repo
 ```shell##
-https://github.com/shubhadip/mono-repo-react-native
+https://github.com/Lobna-Ali/common-react-logic.git
 ```
 - run **yarn** in root folder
 
@@ -26,6 +26,7 @@ https://github.com/shubhadip/mono-repo-react-native
 
 #### To Update Common LibraryCode
 - Run `yarn libdev` in root folder.
+- to watch you can run 'ngx tsc -w'
 
 ### To update library code and develop your web version
 - Run `yarn libdev` and `yarn webdev` this is make sure your changes are reflected in realtime when you change code in library
@@ -36,7 +37,7 @@ https://github.com/shubhadip/mono-repo-react-native
 > to develop android code we have to make a symlink from library to android folder.
 
 `npm install -g wml`.
-`wml add ./packages/common ./packages/nativeapp/node_modules/monoreactrepo`
+`wml add ./apps/common ./apps/nativeapp/node_modules/monoreactrepo`
 `wml start`.
 
 > now you will updated code everytime you change something in library code.
