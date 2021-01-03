@@ -1,0 +1,19 @@
+{
+  "name": "root",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^3.20.2"
+  },
+  "scripts": {
+    "webdev": "lerna --scope='@monorepo/web' run dev --stream --",
+    "libdev": "lerna --scope='monoreporeact' run lib --stream --",
+    "androiddev": "lerna --scope='nativeApp' run android --stream --",
+    "new_version": "lerna version --conventional-commits --yes"
+  },
+  "workspaces": {
+    "packages": [
+      "apps/*"
+    ],
+    "nohoist": ["**/react-native", "**/react-native/**"]
+  }
+}
