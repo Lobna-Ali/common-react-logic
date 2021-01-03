@@ -22,7 +22,7 @@ https://github.com/Lobna-Ali/common-react-logic.git
 - Run `yarn webdev` in root folder.
 
 #### To Run Android Version
-- Run `yarn webdev` in root folder.
+- Run `yarn androiddev` in root folder.
 
 #### To Update Common LibraryCode
 - Run `yarn libdev` in root folder.
